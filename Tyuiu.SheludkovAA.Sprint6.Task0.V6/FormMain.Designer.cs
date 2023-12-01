@@ -1,7 +1,7 @@
 ﻿
 namespace Tyuiu.SheludkovAA.Sprint6.Task0.V6
 {
-    partial class Form1
+    partial class FormMain
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace Tyuiu.SheludkovAA.Sprint6.Task0.V6
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
             this.groupBoxTask_SAA = new System.Windows.Forms.GroupBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.textBoxTask_SAA = new System.Windows.Forms.TextBox();
@@ -126,7 +126,7 @@ namespace Tyuiu.SheludkovAA.Sprint6.Task0.V6
             this.buttonDone_SAA.UseVisualStyleBackColor = true;
             this.buttonDone_SAA.Click += new System.EventHandler(this.buttonDone_SAA_Click);
             // 
-            // Form1
+            // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -137,7 +137,7 @@ namespace Tyuiu.SheludkovAA.Sprint6.Task0.V6
             this.Controls.Add(this.groupBoxTask_SAA);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
-            this.Name = "Form1";
+            this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Tag = "";
             this.Text = "Спринт 6 | Таск 0 | Вариант 6 | Шелудков А.А.";
