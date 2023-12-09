@@ -31,14 +31,14 @@ namespace Tyuiu.SheludkovAA.Sprint6.Task3.V3
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
             this.groupBoxTask_SAA = new System.Windows.Forms.GroupBox();
-            this.textBoxTask_SAA = new System.Windows.Forms.TextBox();
-            this.dataGridViewTask_SAA = new System.Windows.Forms.DataGridView();
             this.labelTask = new System.Windows.Forms.Label();
+            this.dataGridViewTask_SAA = new System.Windows.Forms.DataGridView();
+            this.textBoxTask_SAA = new System.Windows.Forms.TextBox();
             this.groupBoxResult_SAA = new System.Windows.Forms.GroupBox();
+            this.labelResult_SAA = new System.Windows.Forms.Label();
+            this.dataGridViewResult_SAA = new System.Windows.Forms.DataGridView();
             this.buttonDone_SAA = new System.Windows.Forms.Button();
             this.buttonHelp_SAA = new System.Windows.Forms.Button();
-            this.dataGridViewResult_SAA = new System.Windows.Forms.DataGridView();
-            this.labelResult_SAA = new System.Windows.Forms.Label();
             this.groupBoxTask_SAA.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewTask_SAA)).BeginInit();
             this.groupBoxResult_SAA.SuspendLayout();
@@ -53,21 +53,19 @@ namespace Tyuiu.SheludkovAA.Sprint6.Task3.V3
             this.groupBoxTask_SAA.Controls.Add(this.textBoxTask_SAA);
             this.groupBoxTask_SAA.Location = new System.Drawing.Point(9, 15);
             this.groupBoxTask_SAA.Name = "groupBoxTask_SAA";
-            this.groupBoxTask_SAA.Size = new System.Drawing.Size(515, 267);
+            this.groupBoxTask_SAA.Size = new System.Drawing.Size(520, 267);
             this.groupBoxTask_SAA.TabIndex = 0;
             this.groupBoxTask_SAA.TabStop = false;
             this.groupBoxTask_SAA.Text = "Условие";
             // 
-            // textBoxTask_SAA
+            // labelTask
             // 
-            this.textBoxTask_SAA.Enabled = false;
-            this.textBoxTask_SAA.Location = new System.Drawing.Point(12, 25);
-            this.textBoxTask_SAA.Multiline = true;
-            this.textBoxTask_SAA.Name = "textBoxTask_SAA";
-            this.textBoxTask_SAA.ReadOnly = true;
-            this.textBoxTask_SAA.Size = new System.Drawing.Size(262, 212);
-            this.textBoxTask_SAA.TabIndex = 0;
-            this.textBoxTask_SAA.Text = resources.GetString("textBoxTask_SAA.Text");
+            this.labelTask.AutoSize = true;
+            this.labelTask.Location = new System.Drawing.Point(386, 48);
+            this.labelTask.Name = "labelTask";
+            this.labelTask.Size = new System.Drawing.Size(51, 13);
+            this.labelTask.TabIndex = 2;
+            this.labelTask.Text = "Матрица";
             // 
             // dataGridViewTask_SAA
             // 
@@ -80,14 +78,16 @@ namespace Tyuiu.SheludkovAA.Sprint6.Task3.V3
             this.dataGridViewTask_SAA.Size = new System.Drawing.Size(171, 153);
             this.dataGridViewTask_SAA.TabIndex = 1;
             // 
-            // labelTask
+            // textBoxTask_SAA
             // 
-            this.labelTask.AutoSize = true;
-            this.labelTask.Location = new System.Drawing.Point(386, 48);
-            this.labelTask.Name = "labelTask";
-            this.labelTask.Size = new System.Drawing.Size(51, 13);
-            this.labelTask.TabIndex = 2;
-            this.labelTask.Text = "Матрица";
+            this.textBoxTask_SAA.Enabled = false;
+            this.textBoxTask_SAA.Location = new System.Drawing.Point(12, 25);
+            this.textBoxTask_SAA.Multiline = true;
+            this.textBoxTask_SAA.Name = "textBoxTask_SAA";
+            this.textBoxTask_SAA.ReadOnly = true;
+            this.textBoxTask_SAA.Size = new System.Drawing.Size(262, 212);
+            this.textBoxTask_SAA.TabIndex = 0;
+            this.textBoxTask_SAA.Text = resources.GetString("textBoxTask_SAA.Text");
             // 
             // groupBoxResult_SAA
             // 
@@ -100,6 +100,26 @@ namespace Tyuiu.SheludkovAA.Sprint6.Task3.V3
             this.groupBoxResult_SAA.TabIndex = 1;
             this.groupBoxResult_SAA.TabStop = false;
             this.groupBoxResult_SAA.Text = "Результат";
+            // 
+            // labelResult_SAA
+            // 
+            this.labelResult_SAA.AutoSize = true;
+            this.labelResult_SAA.Location = new System.Drawing.Point(90, 48);
+            this.labelResult_SAA.Name = "labelResult_SAA";
+            this.labelResult_SAA.Size = new System.Drawing.Size(51, 13);
+            this.labelResult_SAA.TabIndex = 1;
+            this.labelResult_SAA.Text = "Матрица";
+            // 
+            // dataGridViewResult_SAA
+            // 
+            this.dataGridViewResult_SAA.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewResult_SAA.ColumnHeadersVisible = false;
+            this.dataGridViewResult_SAA.Location = new System.Drawing.Point(32, 65);
+            this.dataGridViewResult_SAA.Name = "dataGridViewResult_SAA";
+            this.dataGridViewResult_SAA.ReadOnly = true;
+            this.dataGridViewResult_SAA.RowHeadersVisible = false;
+            this.dataGridViewResult_SAA.Size = new System.Drawing.Size(171, 152);
+            this.dataGridViewResult_SAA.TabIndex = 0;
             // 
             // buttonDone_SAA
             // 
@@ -125,26 +145,6 @@ namespace Tyuiu.SheludkovAA.Sprint6.Task3.V3
             this.buttonHelp_SAA.Text = "Сведения";
             this.buttonHelp_SAA.UseVisualStyleBackColor = false;
             this.buttonHelp_SAA.Click += new System.EventHandler(this.buttonHelp_SAA_Click);
-            // 
-            // dataGridViewResult_SAA
-            // 
-            this.dataGridViewResult_SAA.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewResult_SAA.ColumnHeadersVisible = false;
-            this.dataGridViewResult_SAA.Location = new System.Drawing.Point(32, 65);
-            this.dataGridViewResult_SAA.Name = "dataGridViewResult_SAA";
-            this.dataGridViewResult_SAA.ReadOnly = true;
-            this.dataGridViewResult_SAA.RowHeadersVisible = false;
-            this.dataGridViewResult_SAA.Size = new System.Drawing.Size(171, 152);
-            this.dataGridViewResult_SAA.TabIndex = 0;
-            // 
-            // labelResult_SAA
-            // 
-            this.labelResult_SAA.AutoSize = true;
-            this.labelResult_SAA.Location = new System.Drawing.Point(90, 48);
-            this.labelResult_SAA.Name = "labelResult_SAA";
-            this.labelResult_SAA.Size = new System.Drawing.Size(51, 13);
-            this.labelResult_SAA.TabIndex = 1;
-            this.labelResult_SAA.Text = "Матрица";
             // 
             // FormMain
             // 
