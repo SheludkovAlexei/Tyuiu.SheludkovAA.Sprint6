@@ -29,26 +29,26 @@ namespace Tyuiu.SheludkovAA.Sprint6.Task5.V20
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.panelTask_SAA = new System.Windows.Forms.Panel();
-            this.PanelResult_SAA = new System.Windows.Forms.FlowLayoutPanel();
-            this.panelFIll_SAA = new System.Windows.Forms.Panel();
-            this.groupBoxTask_SAA = new System.Windows.Forms.GroupBox();
-            this.buttonDone_SAA = new System.Windows.Forms.Button();
-            this.buttonOpen_SAA = new System.Windows.Forms.Button();
             this.buttonHelp_SAA = new System.Windows.Forms.Button();
-            this.groupBoxResult_SAA = new System.Windows.Forms.GroupBox();
+            this.buttonOpen_SAA = new System.Windows.Forms.Button();
+            this.buttonDone_SAA = new System.Windows.Forms.Button();
+            this.groupBoxTask_SAA = new System.Windows.Forms.GroupBox();
             this.textBoxTask_SAA = new System.Windows.Forms.TextBox();
+            this.PanelResult_SAA = new System.Windows.Forms.FlowLayoutPanel();
+            this.groupBoxResult_SAA = new System.Windows.Forms.GroupBox();
             this.dataGridViewResult_SAA = new System.Windows.Forms.DataGridView();
+            this.panelFIll_SAA = new System.Windows.Forms.Panel();
             this.chartResult_SAA = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.panelTask_SAA.SuspendLayout();
-            this.PanelResult_SAA.SuspendLayout();
-            this.panelFIll_SAA.SuspendLayout();
             this.groupBoxTask_SAA.SuspendLayout();
+            this.PanelResult_SAA.SuspendLayout();
             this.groupBoxResult_SAA.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewResult_SAA)).BeginInit();
+            this.panelFIll_SAA.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chartResult_SAA)).BeginInit();
             this.SuspendLayout();
             // 
@@ -64,43 +64,15 @@ namespace Tyuiu.SheludkovAA.Sprint6.Task5.V20
             this.panelTask_SAA.Size = new System.Drawing.Size(840, 99);
             this.panelTask_SAA.TabIndex = 0;
             // 
-            // PanelResult_SAA
+            // buttonHelp_SAA
             // 
-            this.PanelResult_SAA.Controls.Add(this.groupBoxResult_SAA);
-            this.PanelResult_SAA.Dock = System.Windows.Forms.DockStyle.Left;
-            this.PanelResult_SAA.Location = new System.Drawing.Point(0, 99);
-            this.PanelResult_SAA.Name = "PanelResult_SAA";
-            this.PanelResult_SAA.Size = new System.Drawing.Size(167, 351);
-            this.PanelResult_SAA.TabIndex = 1;
-            // 
-            // panelFIll_SAA
-            // 
-            this.panelFIll_SAA.Controls.Add(this.chartResult_SAA);
-            this.panelFIll_SAA.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelFIll_SAA.Location = new System.Drawing.Point(167, 99);
-            this.panelFIll_SAA.Name = "panelFIll_SAA";
-            this.panelFIll_SAA.Size = new System.Drawing.Size(673, 351);
-            this.panelFIll_SAA.TabIndex = 2;
-            // 
-            // groupBoxTask_SAA
-            // 
-            this.groupBoxTask_SAA.Controls.Add(this.textBoxTask_SAA);
-            this.groupBoxTask_SAA.Location = new System.Drawing.Point(7, 8);
-            this.groupBoxTask_SAA.Name = "groupBoxTask_SAA";
-            this.groupBoxTask_SAA.Size = new System.Drawing.Size(419, 85);
-            this.groupBoxTask_SAA.TabIndex = 0;
-            this.groupBoxTask_SAA.TabStop = false;
-            this.groupBoxTask_SAA.Text = "Условие";
-            // 
-            // buttonDone_SAA
-            // 
-            this.buttonDone_SAA.Location = new System.Drawing.Point(443, 21);
-            this.buttonDone_SAA.Name = "buttonDone_SAA";
-            this.buttonDone_SAA.Size = new System.Drawing.Size(121, 63);
-            this.buttonDone_SAA.TabIndex = 1;
-            this.buttonDone_SAA.Text = "Выполнить";
-            this.buttonDone_SAA.UseVisualStyleBackColor = true;
-            this.buttonDone_SAA.Click += new System.EventHandler(this.buttonDone_SAA_Click);
+            this.buttonHelp_SAA.Location = new System.Drawing.Point(708, 21);
+            this.buttonHelp_SAA.Name = "buttonHelp_SAA";
+            this.buttonHelp_SAA.Size = new System.Drawing.Size(121, 63);
+            this.buttonHelp_SAA.TabIndex = 0;
+            this.buttonHelp_SAA.Text = "Справка";
+            this.buttonHelp_SAA.UseVisualStyleBackColor = true;
+            this.buttonHelp_SAA.Click += new System.EventHandler(this.buttonHelp_SAA_Click);
             // 
             // buttonOpen_SAA
             // 
@@ -112,25 +84,25 @@ namespace Tyuiu.SheludkovAA.Sprint6.Task5.V20
             this.buttonOpen_SAA.UseVisualStyleBackColor = true;
             this.buttonOpen_SAA.Click += new System.EventHandler(this.buttonOpen_SAA_Click);
             // 
-            // buttonHelp_SAA
+            // buttonDone_SAA
             // 
-            this.buttonHelp_SAA.Location = new System.Drawing.Point(708, 21);
-            this.buttonHelp_SAA.Name = "buttonHelp_SAA";
-            this.buttonHelp_SAA.Size = new System.Drawing.Size(121, 63);
-            this.buttonHelp_SAA.TabIndex = 0;
-            this.buttonHelp_SAA.Text = "Справка";
-            this.buttonHelp_SAA.UseVisualStyleBackColor = true;
-            this.buttonHelp_SAA.Click += new System.EventHandler(this.buttonHelp_SAA_Click);
+            this.buttonDone_SAA.Location = new System.Drawing.Point(443, 21);
+            this.buttonDone_SAA.Name = "buttonDone_SAA";
+            this.buttonDone_SAA.Size = new System.Drawing.Size(121, 63);
+            this.buttonDone_SAA.TabIndex = 1;
+            this.buttonDone_SAA.Text = "Выполнить";
+            this.buttonDone_SAA.UseVisualStyleBackColor = true;
+            this.buttonDone_SAA.Click += new System.EventHandler(this.buttonDone_SAA_Click);
             // 
-            // groupBoxResult_SAA
+            // groupBoxTask_SAA
             // 
-            this.groupBoxResult_SAA.Controls.Add(this.dataGridViewResult_SAA);
-            this.groupBoxResult_SAA.Location = new System.Drawing.Point(3, 3);
-            this.groupBoxResult_SAA.Name = "groupBoxResult_SAA";
-            this.groupBoxResult_SAA.Size = new System.Drawing.Size(153, 335);
-            this.groupBoxResult_SAA.TabIndex = 0;
-            this.groupBoxResult_SAA.TabStop = false;
-            this.groupBoxResult_SAA.Text = "Результат";
+            this.groupBoxTask_SAA.Controls.Add(this.textBoxTask_SAA);
+            this.groupBoxTask_SAA.Location = new System.Drawing.Point(7, 8);
+            this.groupBoxTask_SAA.Name = "groupBoxTask_SAA";
+            this.groupBoxTask_SAA.Size = new System.Drawing.Size(419, 85);
+            this.groupBoxTask_SAA.TabIndex = 0;
+            this.groupBoxTask_SAA.TabStop = false;
+            this.groupBoxTask_SAA.Text = "Условие";
             // 
             // textBoxTask_SAA
             // 
@@ -143,8 +115,30 @@ namespace Tyuiu.SheludkovAA.Sprint6.Task5.V20
             this.textBoxTask_SAA.Text = "Прочитать данные из файла InPutFileTask5.txt и вывести данные в dataGridView все " +
     "чётные значения, построить диаграмму по этим значениям";
             // 
+            // PanelResult_SAA
+            // 
+            this.PanelResult_SAA.Controls.Add(this.groupBoxResult_SAA);
+            this.PanelResult_SAA.Dock = System.Windows.Forms.DockStyle.Left;
+            this.PanelResult_SAA.Location = new System.Drawing.Point(0, 99);
+            this.PanelResult_SAA.Name = "PanelResult_SAA";
+            this.PanelResult_SAA.Size = new System.Drawing.Size(167, 351);
+            this.PanelResult_SAA.TabIndex = 1;
+            // 
+            // groupBoxResult_SAA
+            // 
+            this.groupBoxResult_SAA.Controls.Add(this.dataGridViewResult_SAA);
+            this.groupBoxResult_SAA.Location = new System.Drawing.Point(3, 3);
+            this.groupBoxResult_SAA.Name = "groupBoxResult_SAA";
+            this.groupBoxResult_SAA.Size = new System.Drawing.Size(153, 335);
+            this.groupBoxResult_SAA.TabIndex = 0;
+            this.groupBoxResult_SAA.TabStop = false;
+            this.groupBoxResult_SAA.Text = "Результат";
+            // 
             // dataGridViewResult_SAA
             // 
+            this.dataGridViewResult_SAA.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridViewResult_SAA.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewResult_SAA.ColumnHeadersVisible = false;
             this.dataGridViewResult_SAA.Location = new System.Drawing.Point(9, 19);
@@ -153,19 +147,31 @@ namespace Tyuiu.SheludkovAA.Sprint6.Task5.V20
             this.dataGridViewResult_SAA.Size = new System.Drawing.Size(132, 303);
             this.dataGridViewResult_SAA.TabIndex = 0;
             // 
+            // panelFIll_SAA
+            // 
+            this.panelFIll_SAA.Controls.Add(this.chartResult_SAA);
+            this.panelFIll_SAA.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelFIll_SAA.Location = new System.Drawing.Point(167, 99);
+            this.panelFIll_SAA.Name = "panelFIll_SAA";
+            this.panelFIll_SAA.Size = new System.Drawing.Size(673, 351);
+            this.panelFIll_SAA.TabIndex = 2;
+            // 
             // chartResult_SAA
             // 
-            chartArea3.Name = "ChartArea1";
-            this.chartResult_SAA.ChartAreas.Add(chartArea3);
-            legend3.Enabled = false;
-            legend3.Name = "Legend1";
-            this.chartResult_SAA.Legends.Add(legend3);
+            this.chartResult_SAA.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            chartArea2.Name = "ChartArea1";
+            this.chartResult_SAA.ChartAreas.Add(chartArea2);
+            legend2.Enabled = false;
+            legend2.Name = "Legend1";
+            this.chartResult_SAA.Legends.Add(legend2);
             this.chartResult_SAA.Location = new System.Drawing.Point(9, 9);
             this.chartResult_SAA.Name = "chartResult_SAA";
-            series3.ChartArea = "ChartArea1";
-            series3.Legend = "Legend1";
-            series3.Name = "Series1";
-            this.chartResult_SAA.Series.Add(series3);
+            series2.ChartArea = "ChartArea1";
+            series2.Legend = "Legend1";
+            series2.Name = "Series1";
+            this.chartResult_SAA.Series.Add(series2);
             this.chartResult_SAA.Size = new System.Drawing.Size(652, 328);
             this.chartResult_SAA.TabIndex = 0;
             this.chartResult_SAA.Text = "chart1";
@@ -183,12 +189,12 @@ namespace Tyuiu.SheludkovAA.Sprint6.Task5.V20
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panelTask_SAA.ResumeLayout(false);
-            this.PanelResult_SAA.ResumeLayout(false);
-            this.panelFIll_SAA.ResumeLayout(false);
             this.groupBoxTask_SAA.ResumeLayout(false);
             this.groupBoxTask_SAA.PerformLayout();
+            this.PanelResult_SAA.ResumeLayout(false);
             this.groupBoxResult_SAA.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewResult_SAA)).EndInit();
+            this.panelFIll_SAA.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.chartResult_SAA)).EndInit();
             this.ResumeLayout(false);
 
