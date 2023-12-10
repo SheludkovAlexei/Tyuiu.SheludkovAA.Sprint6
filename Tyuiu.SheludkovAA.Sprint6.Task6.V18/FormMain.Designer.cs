@@ -32,27 +32,27 @@ namespace Tyuiu.SheludkovAA.Sprint6.Task6.V18
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
             this.panelButtons_SAA = new System.Windows.Forms.Panel();
-            this.panelText_SAA = new System.Windows.Forms.Panel();
-            this.panelResult_SAA = new System.Windows.Forms.Panel();
-            this.panelTask_SAA = new System.Windows.Forms.Panel();
-            this.buttonOpen_SAA = new System.Windows.Forms.Button();
-            this.buttonDone_SAA = new System.Windows.Forms.Button();
-            this.groupBoxTask_SAA = new System.Windows.Forms.GroupBox();
-            this.groupBoxText_SAA = new System.Windows.Forms.GroupBox();
-            this.groupBoxResult = new System.Windows.Forms.GroupBox();
-            this.textBoxTask_SAA = new System.Windows.Forms.TextBox();
-            this.textBoxText_SAA = new System.Windows.Forms.TextBox();
-            this.textBoxResult_SAA = new System.Windows.Forms.TextBox();
             this.buttonHelp_SAA = new System.Windows.Forms.Button();
+            this.buttonDone_SAA = new System.Windows.Forms.Button();
+            this.buttonOpen_SAA = new System.Windows.Forms.Button();
+            this.panelText_SAA = new System.Windows.Forms.Panel();
+            this.groupBoxText_SAA = new System.Windows.Forms.GroupBox();
+            this.textBoxText_SAA = new System.Windows.Forms.TextBox();
+            this.panelResult_SAA = new System.Windows.Forms.Panel();
+            this.groupBoxResult = new System.Windows.Forms.GroupBox();
+            this.textBoxResult_SAA = new System.Windows.Forms.TextBox();
+            this.panelTask_SAA = new System.Windows.Forms.Panel();
+            this.groupBoxTask_SAA = new System.Windows.Forms.GroupBox();
+            this.textBoxTask_SAA = new System.Windows.Forms.TextBox();
             this.openFileDialogTask = new System.Windows.Forms.OpenFileDialog();
             this.toolTipDone = new System.Windows.Forms.ToolTip(this.components);
             this.panelButtons_SAA.SuspendLayout();
             this.panelText_SAA.SuspendLayout();
+            this.groupBoxText_SAA.SuspendLayout();
             this.panelResult_SAA.SuspendLayout();
+            this.groupBoxResult.SuspendLayout();
             this.panelTask_SAA.SuspendLayout();
             this.groupBoxTask_SAA.SuspendLayout();
-            this.groupBoxText_SAA.SuspendLayout();
-            this.groupBoxResult.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelButtons_SAA
@@ -66,40 +66,15 @@ namespace Tyuiu.SheludkovAA.Sprint6.Task6.V18
             this.panelButtons_SAA.Size = new System.Drawing.Size(800, 87);
             this.panelButtons_SAA.TabIndex = 0;
             // 
-            // panelText_SAA
+            // buttonHelp_SAA
             // 
-            this.panelText_SAA.Controls.Add(this.groupBoxText_SAA);
-            this.panelText_SAA.Location = new System.Drawing.Point(0, 182);
-            this.panelText_SAA.Name = "panelText_SAA";
-            this.panelText_SAA.Size = new System.Drawing.Size(379, 378);
-            this.panelText_SAA.TabIndex = 1;
-            // 
-            // panelResult_SAA
-            // 
-            this.panelResult_SAA.Controls.Add(this.groupBoxResult);
-            this.panelResult_SAA.Location = new System.Drawing.Point(376, 182);
-            this.panelResult_SAA.Name = "panelResult_SAA";
-            this.panelResult_SAA.Size = new System.Drawing.Size(424, 378);
-            this.panelResult_SAA.TabIndex = 2;
-            // 
-            // panelTask_SAA
-            // 
-            this.panelTask_SAA.Controls.Add(this.groupBoxTask_SAA);
-            this.panelTask_SAA.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelTask_SAA.Location = new System.Drawing.Point(0, 87);
-            this.panelTask_SAA.Name = "panelTask_SAA";
-            this.panelTask_SAA.Size = new System.Drawing.Size(800, 94);
-            this.panelTask_SAA.TabIndex = 3;
-            // 
-            // buttonOpen_SAA
-            // 
-            this.buttonOpen_SAA.Image = ((System.Drawing.Image)(resources.GetObject("buttonOpen_SAA.Image")));
-            this.buttonOpen_SAA.Location = new System.Drawing.Point(12, 5);
-            this.buttonOpen_SAA.Name = "buttonOpen_SAA";
-            this.buttonOpen_SAA.Size = new System.Drawing.Size(92, 76);
-            this.buttonOpen_SAA.TabIndex = 0;
-            this.buttonOpen_SAA.UseVisualStyleBackColor = true;
-            this.buttonOpen_SAA.Click += new System.EventHandler(this.buttonOpen_SAA_Click);
+            this.buttonHelp_SAA.Image = ((System.Drawing.Image)(resources.GetObject("buttonHelp_SAA.Image")));
+            this.buttonHelp_SAA.Location = new System.Drawing.Point(699, 5);
+            this.buttonHelp_SAA.Name = "buttonHelp_SAA";
+            this.buttonHelp_SAA.Size = new System.Drawing.Size(92, 76);
+            this.buttonHelp_SAA.TabIndex = 2;
+            this.buttonHelp_SAA.UseVisualStyleBackColor = true;
+            this.buttonHelp_SAA.Click += new System.EventHandler(this.buttonHelp_SAA_Click);
             // 
             // buttonDone_SAA
             // 
@@ -112,15 +87,23 @@ namespace Tyuiu.SheludkovAA.Sprint6.Task6.V18
             this.buttonDone_SAA.UseVisualStyleBackColor = true;
             this.buttonDone_SAA.Click += new System.EventHandler(this.buttonDone_SAA_Click);
             // 
-            // groupBoxTask_SAA
+            // buttonOpen_SAA
             // 
-            this.groupBoxTask_SAA.Controls.Add(this.textBoxTask_SAA);
-            this.groupBoxTask_SAA.Location = new System.Drawing.Point(0, 0);
-            this.groupBoxTask_SAA.Name = "groupBoxTask_SAA";
-            this.groupBoxTask_SAA.Size = new System.Drawing.Size(800, 91);
-            this.groupBoxTask_SAA.TabIndex = 0;
-            this.groupBoxTask_SAA.TabStop = false;
-            this.groupBoxTask_SAA.Text = "Условие";
+            this.buttonOpen_SAA.Image = ((System.Drawing.Image)(resources.GetObject("buttonOpen_SAA.Image")));
+            this.buttonOpen_SAA.Location = new System.Drawing.Point(12, 5);
+            this.buttonOpen_SAA.Name = "buttonOpen_SAA";
+            this.buttonOpen_SAA.Size = new System.Drawing.Size(92, 76);
+            this.buttonOpen_SAA.TabIndex = 0;
+            this.buttonOpen_SAA.UseVisualStyleBackColor = true;
+            this.buttonOpen_SAA.Click += new System.EventHandler(this.buttonOpen_SAA_Click);
+            // 
+            // panelText_SAA
+            // 
+            this.panelText_SAA.Controls.Add(this.groupBoxText_SAA);
+            this.panelText_SAA.Location = new System.Drawing.Point(0, 182);
+            this.panelText_SAA.Name = "panelText_SAA";
+            this.panelText_SAA.Size = new System.Drawing.Size(379, 378);
+            this.panelText_SAA.TabIndex = 1;
             // 
             // groupBoxText_SAA
             // 
@@ -132,6 +115,22 @@ namespace Tyuiu.SheludkovAA.Sprint6.Task6.V18
             this.groupBoxText_SAA.TabStop = false;
             this.groupBoxText_SAA.Text = "Ввод: ";
             // 
+            // textBoxText_SAA
+            // 
+            this.textBoxText_SAA.Location = new System.Drawing.Point(6, 19);
+            this.textBoxText_SAA.Multiline = true;
+            this.textBoxText_SAA.Name = "textBoxText_SAA";
+            this.textBoxText_SAA.Size = new System.Drawing.Size(352, 345);
+            this.textBoxText_SAA.TabIndex = 0;
+            // 
+            // panelResult_SAA
+            // 
+            this.panelResult_SAA.Controls.Add(this.groupBoxResult);
+            this.panelResult_SAA.Location = new System.Drawing.Point(376, 182);
+            this.panelResult_SAA.Name = "panelResult_SAA";
+            this.panelResult_SAA.Size = new System.Drawing.Size(424, 378);
+            this.panelResult_SAA.TabIndex = 2;
+            // 
             // groupBoxResult
             // 
             this.groupBoxResult.Controls.Add(this.textBoxResult_SAA);
@@ -142,6 +141,33 @@ namespace Tyuiu.SheludkovAA.Sprint6.Task6.V18
             this.groupBoxResult.TabStop = false;
             this.groupBoxResult.Text = "Вывод";
             // 
+            // textBoxResult_SAA
+            // 
+            this.textBoxResult_SAA.Location = new System.Drawing.Point(6, 19);
+            this.textBoxResult_SAA.Multiline = true;
+            this.textBoxResult_SAA.Name = "textBoxResult_SAA";
+            this.textBoxResult_SAA.Size = new System.Drawing.Size(403, 344);
+            this.textBoxResult_SAA.TabIndex = 0;
+            // 
+            // panelTask_SAA
+            // 
+            this.panelTask_SAA.Controls.Add(this.groupBoxTask_SAA);
+            this.panelTask_SAA.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelTask_SAA.Location = new System.Drawing.Point(0, 87);
+            this.panelTask_SAA.Name = "panelTask_SAA";
+            this.panelTask_SAA.Size = new System.Drawing.Size(800, 94);
+            this.panelTask_SAA.TabIndex = 3;
+            // 
+            // groupBoxTask_SAA
+            // 
+            this.groupBoxTask_SAA.Controls.Add(this.textBoxTask_SAA);
+            this.groupBoxTask_SAA.Location = new System.Drawing.Point(0, 0);
+            this.groupBoxTask_SAA.Name = "groupBoxTask_SAA";
+            this.groupBoxTask_SAA.Size = new System.Drawing.Size(800, 91);
+            this.groupBoxTask_SAA.TabIndex = 0;
+            this.groupBoxTask_SAA.TabStop = false;
+            this.groupBoxTask_SAA.Text = "Условие";
+            // 
             // textBoxTask_SAA
             // 
             this.textBoxTask_SAA.Location = new System.Drawing.Point(12, 19);
@@ -151,32 +177,6 @@ namespace Tyuiu.SheludkovAA.Sprint6.Task6.V18
             this.textBoxTask_SAA.Size = new System.Drawing.Size(776, 66);
             this.textBoxTask_SAA.TabIndex = 0;
             this.textBoxTask_SAA.Text = resources.GetString("textBoxTask_SAA.Text");
-            // 
-            // textBoxText_SAA
-            // 
-            this.textBoxText_SAA.Location = new System.Drawing.Point(6, 19);
-            this.textBoxText_SAA.Multiline = true;
-            this.textBoxText_SAA.Name = "textBoxText_SAA";
-            this.textBoxText_SAA.Size = new System.Drawing.Size(352, 345);
-            this.textBoxText_SAA.TabIndex = 0;
-            // 
-            // textBoxResult_SAA
-            // 
-            this.textBoxResult_SAA.Location = new System.Drawing.Point(6, 19);
-            this.textBoxResult_SAA.Multiline = true;
-            this.textBoxResult_SAA.Name = "textBoxResult_SAA";
-            this.textBoxResult_SAA.Size = new System.Drawing.Size(403, 344);
-            this.textBoxResult_SAA.TabIndex = 0;
-            // 
-            // buttonHelp_SAA
-            // 
-            this.buttonHelp_SAA.Image = ((System.Drawing.Image)(resources.GetObject("buttonHelp_SAA.Image")));
-            this.buttonHelp_SAA.Location = new System.Drawing.Point(699, 5);
-            this.buttonHelp_SAA.Name = "buttonHelp_SAA";
-            this.buttonHelp_SAA.Size = new System.Drawing.Size(92, 76);
-            this.buttonHelp_SAA.TabIndex = 2;
-            this.buttonHelp_SAA.UseVisualStyleBackColor = true;
-            this.buttonHelp_SAA.Click += new System.EventHandler(this.buttonHelp_SAA_Click);
             // 
             // openFileDialogTask
             // 
@@ -202,14 +202,14 @@ namespace Tyuiu.SheludkovAA.Sprint6.Task6.V18
             this.Load += new System.EventHandler(this.FormMain_Load);
             this.panelButtons_SAA.ResumeLayout(false);
             this.panelText_SAA.ResumeLayout(false);
+            this.groupBoxText_SAA.ResumeLayout(false);
+            this.groupBoxText_SAA.PerformLayout();
             this.panelResult_SAA.ResumeLayout(false);
+            this.groupBoxResult.ResumeLayout(false);
+            this.groupBoxResult.PerformLayout();
             this.panelTask_SAA.ResumeLayout(false);
             this.groupBoxTask_SAA.ResumeLayout(false);
             this.groupBoxTask_SAA.PerformLayout();
-            this.groupBoxText_SAA.ResumeLayout(false);
-            this.groupBoxText_SAA.PerformLayout();
-            this.groupBoxResult.ResumeLayout(false);
-            this.groupBoxResult.PerformLayout();
             this.ResumeLayout(false);
 
         }
